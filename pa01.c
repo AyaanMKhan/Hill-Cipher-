@@ -1,21 +1,3 @@
-/*============================================================================
-| Assignment: pa01 - Encrypting a plaintext file using the Hill cipher
-|
-| Author: Ayaan Khan
-| Language: C
-| To Compile: javac pa01.java
-| gcc -o pa01 pa01.c
-| To Execute: c -> ./pa01 kX.txt pX.txt
-| where kX.txt is the keytext file
-| and pX.txt is plaintext file
-| Note:
-| All input files are simple 8 bit ASCII input
-| All execute commands above have been tested on Eustis
-|
-| Class: CIS3360 - Security in Computing - Fall 2024
-| Instructor: McAlpin
-| Due Date: September 29th 2024
-+===========================================================================*/
 #include <stdio.h>
 #include <ctype.h>
 
@@ -115,13 +97,3 @@ int main(int argc, char *argv[]){
     hillCipher(string, matrix, index, size);
 
 }
-
-
-/*=============================================================================
-| I Ayaan Khan 5547292 affirm that this program is
-| entirely my own work and that I have neither developed my code together with
-| any another person, nor copied any code from any other person, nor permitted
-| my code to be copied or otherwise used by any other person, nor have I
-| copied, modified, or otherwise used programs created by others. I acknowledge
-| that any violation of the above terms will be treated as academic dishonesty.
-+=============================================================================*/
